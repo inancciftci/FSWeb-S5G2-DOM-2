@@ -112,3 +112,68 @@
     }
   }
 }// home
+
+
+
+.modal {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5rem;
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  font-size: 1.6rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  border-radius: 1rem;
+
+  .form {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  input {
+    width: 100%;
+    line-height: 3rem;
+  }
+
+  .submit-btn {
+    padding: 2rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    border-radius: 0.3rem;
+  }
+  .submit-btn:hover {
+    cursor: pointer;
+  }
+  .form-top {
+    width: 100%;
+    margin-bottom: 4rem;
+    margin-top: -3rem;
+  }
+  .close-btn {
+    float: right;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+  }
+  .close-btn:hover {
+    cursor: pointer;
+  }
+}
